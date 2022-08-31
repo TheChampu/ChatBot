@@ -38,24 +38,29 @@ async def start(client, message):
     self = await bot.get_me()
     busername = self.username
     if message.chat.type != "private":
-        buttons = [[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/V3N0M_0P"),
-                   InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/Gujiya"),],
-                  [InlineKeyboardButton(text="ᴄʟɪᴄᴋ ʜᴇʀᴇ", url=f"https:/t.me/V3NOM_MUSIC_BOT?start")]]
+        buttons = [
+                  [
+                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/OFFICIALHACKER789"),
+                   InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/HEPPYLIFI"),
+                  ]       
+                  ]
         await message.reply("ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴇʀsᴏɴᴀʟ",
                             reply_markup=buttons)
         
     else:
         buttons = [[
-            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/V3NOM_MUSIC_BOT?startgroup=true")
+            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/DHAT_TERI_LOL_CHAT_BOT?startgroup=true")
         ]
         ]
         video = "https://telegra.ph/file/6bb3994d5789d8e7f2c99.mp4"
-        await message.reply_video(video, caption=f"""Hi![{message.from_user.first_name}](tg://user?id={message.from_user.id}),
+        await message.reply_video(video, caption=f"""ʜᴇʟʟᴏ[{message.from_user.first_name}](tg://user?id={message.from_user.id}),
+ɪ ᴀᴍ ᴄʜᴀᴛʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
+
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴏᴡɴᴇʀ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/adityahalder)
+┣★ ᴏᴡɴᴇʀ   [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/OFFICIALHACKERERA)
 ┣★ ᴜᴘᴅᴀᴛᴇs [ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ](https://t.me/OFFICIALHACKER789)
-┣★ sᴜᴘᴘᴏʀᴛ [ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ](https://t.me/adityadiscus)
-┣★ sᴏᴜʀᴄᴇ [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/mradityaxd/adityaplayer)
+┣★ sᴜᴘᴘᴏʀᴛ [ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ](https://t.me/HEPPYLIFI)
+┣★ sᴏᴜʀᴄᴇ  [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/OFFICIALHACKERERA/CHATBOT)
 ┗━━━━━━━━━━━━━━━━━┛
 """, reply_markup=InlineKeyboardMarkup(buttons))
 
