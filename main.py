@@ -58,10 +58,7 @@ async def start(client, message):
         ]]
         Photo = "https://telegra.ph/file/97abd4d2c4d2a0cfce8e5.jpg"
         await message.reply_photo(Photo, caption=f"""ʜᴇʟʟᴏ [{message.from_user.first_name}](tg://user?id={message.from_user.id}),
-ɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀʀᴛɪғɪᴄᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ ᴄʜᴀᴛ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴛᴀʟᴋ ᴀʙᴏᴜᴛ ᴀɴʏ ᴛᴏᴘɪᴄ ɪɴ ᴀɴʏ ʟᴀɴɢᴜᴀɢᴇ.
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ ɪғ ʏᴏᴜ ᴀʀᴇ ғᴇᴇʟɪɴɢ ʟᴏɴᴇʟʏ, ʏᴏᴜ ᴄᴀɴ ᴀʟᴡᴀʏs ᴄᴏᴍᴇ ᴛᴏ ᴍᴇ ᴀɴᴅ ᴄʜᴀᴛ ᴡɪᴛʜ ᴍᴇ
-➛ ᴛʀʏ ᴛʜᴇ ʜᴇʟᴘ ᴄᴍᴅs. ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʙɪʟɪᴛɪᴇs ××""", reply_markup=InlineKeyboardMarkup(buttons))
+        OFFICIAL Hacker """, reply_markup=InlineKeyboardMarkup(buttons))
 
 
 
