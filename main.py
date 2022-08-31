@@ -47,20 +47,17 @@ async def start(client, message):
     else:
         buttons = [[
             InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/V3NOM_MUSIC_BOT?startgroup=true")
-        ],
-        
-        [
-            InlineKeyboardButton("❮ sᴜᴘᴘᴏʀᴛ ❯", url="https://t.me/HEPPYLIFI"),
-            InlineKeyboardButton("❮ ᴄʜᴀɴɴᴇʟ ❯", url="https://t.me/OFFICIALHACKER789")
-        ],
-        [
-            InlineKeyboardButton("❮ ᴏᴡɴᴇʀ ❯", url="https://t.me/OFFICIALHACKERERA")
-            InlineKeyboardButton("❮ sᴏᴜʀᴄᴇ ❯", url="https://t.me/OFFICIALHACKERERA")
         ]
         ]
         video = "https://telegra.ph/file/6bb3994d5789d8e7f2c99.mp4"
         await message.reply_video(video, caption=f"""Hi![{message.from_user.first_name}](tg://user?id={message.from_user.id}),
- I'm an ChatBot Intelligence\n /chatbot - [on|off] """, reply_markup=InlineKeyboardMarkup(buttons))
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ᴏᴡɴᴇʀ [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/adityahalder)
+┣★ ᴜᴘᴅᴀᴛᴇs [ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ](https://t.me/OFFICIALHACKER789)
+┣★ sᴜᴘᴘᴏʀᴛ [ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ](https://t.me/adityadiscus)
+┣★ sᴏᴜʀᴄᴇ [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/mradityaxd/adityaplayer)
+┗━━━━━━━━━━━━━━━━━┛
+""", reply_markup=InlineKeyboardMarkup(buttons))
 
 
 
