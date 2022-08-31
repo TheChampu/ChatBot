@@ -30,9 +30,43 @@ async def is_admins(chat_id: int):
     ]
 
 
+
+
+
 @bot.on_message(filters.command("start"))
 async def start(client, message):
-        await message.reply_text("Hi! My name is Ishi. I'm an Artificial Intelligence\n /chatbot - [on|off]")
+    self = await bot.get_me()
+    busername = self.username
+    if message.chat.type != "private":
+        buttons = [[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/V3N0M_0P"),
+                   InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/Gujiya"),],
+                  [InlineKeyboardButton(text="ᴄʟɪᴄᴋ ʜᴇʀᴇ", url=f"https:/t.me/V3NOM_MUSIC_BOT?start")]]
+        await message.reply("ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴇʀsᴏɴᴀʟ",
+                            reply_markup=buttons)
+        
+    else:
+        buttons = [[
+            InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/V3NOM_MUSIC_BOT?startgroup=true")
+        ],
+        
+        [
+            InlineKeyboardButton("👥 ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ", url="https://t.me/GUJIYA"),
+            InlineKeyboardButton("📣 ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url="https://t.me/S3D_OP")
+        ],
+        [
+            InlineKeyboardButton("💠 OWNER 💠", url="https://t.me/VENOMxCRAZY")
+        ]]
+        Photo = "https://telegra.ph/file/97abd4d2c4d2a0cfce8e5.jpg"
+        await message.reply_photo(Photo, caption=f"""ʜᴇʟʟᴏ [{message.from_user.first_name}](tg://user?id={message.from_user.id}),
+ɪ ᴀᴍ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀʀᴛɪғɪᴄᴀʟ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ ᴄʜᴀᴛ ʙᴏᴛ ᴛʜᴀᴛ ᴄᴀɴ ᴛᴀʟᴋ ᴀʙᴏᴜᴛ ᴀɴʏ ᴛᴏᴘɪᴄ ɪɴ ᴀɴʏ ʟᴀɴɢᴜᴀɢᴇ.
+➖➖➖➖➖➖➖➖➖➖➖➖➖
+➛ ɪғ ʏᴏᴜ ᴀʀᴇ ғᴇᴇʟɪɴɢ ʟᴏɴᴇʟʏ, ʏᴏᴜ ᴄᴀɴ ᴀʟᴡᴀʏs ᴄᴏᴍᴇ ᴛᴏ ᴍᴇ ᴀɴᴅ ᴄʜᴀᴛ ᴡɪᴛʜ ᴍᴇ
+➛ ᴛʀʏ ᴛʜᴇ ʜᴇʟᴘ ᴄᴍᴅs. ᴛᴏ ᴋɴᴏᴡ ᴍʏ ᴀʙɪʟɪᴛɪᴇs ××""", reply_markup=InlineKeyboardMarkup(buttons))
+
+
+
+
+
 
 
 @bot.on_message(
