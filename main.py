@@ -54,8 +54,9 @@ async def start(client, message):
             InlineKeyboardButton("📣 ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ", url="https://t.me/S3D_OP")
         ],
         [
-            InlineKeyboardButton("💠 OWNER 💠", url="https://t.me/VENOMxCRAZY")
-        ]]
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/OFFICIALHACKERERA")
+        ]
+        ]
         Photo = "https://telegra.ph/file/97abd4d2c4d2a0cfce8e5.jpg"
         await message.reply_photo(Photo, caption=f"""ʜᴇʟʟᴏ [{message.from_user.first_name}](tg://user?id={message.from_user.id}),
         OFFICIAL Hacker """, reply_markup=InlineKeyboardMarkup(buttons))
