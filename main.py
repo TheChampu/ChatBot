@@ -52,12 +52,12 @@ async def start(client, message):
             InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/DHAT_TERI_LOL_CHAT_BOT?startgroup=true")
         ]
         ]
-        video = "https://te.legra.ph/file/e2706ce656fb1c4a96fc6.jpg"
+        video = "https://te.legra.ph/file/f2433daaef29fa2de7d94.mp4"
         await message.reply_video(video, caption=f"""ʜᴇʟʟᴏ[{message.from_user.first_name}](tg://user?id={message.from_user.id}),
 ɪ ᴀᴍ ᴄʜᴀᴛʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴏᴡɴᴇʀ   [ᴏғғɪᴄɪᴀʟ ʜᴀᴄᴋᴇʀ](https://t.me/cryptic_audacious_prince)
+┣★ ᴏᴡɴᴇʀ   [ᴢᴇᴅᴅʏ](https://t.me/cryptic_audacious_prince)
 ┣★ ᴜᴘᴅᴀᴛᴇs [ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ](https://t.me/OFFICIALHACKER789)
 ┣★ sᴜᴘᴘᴏʀᴛ [ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ](https://t.me/HEPPYLIFI)
 ┣★ sᴏᴜʀᴄᴇ  [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/starrr003/CHATBOT)
