@@ -40,8 +40,8 @@ async def start(client, message):
     if message.chat.type != "private":
         buttons = [
                   [
-                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/OFFICIALHACKER789"),
-                   InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/HEPPYLIFI"),
+                   InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/ab_sumit"),
+                   InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/bellysupportchat"),
                   ]       
                   ]
         await message.reply("ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴇʀsᴏɴᴀʟ",
@@ -49,18 +49,18 @@ async def start(client, message):
         
     else:
         buttons = [[
-            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/DHAT_TERI_LOL_CHAT_BOT?startgroup=true")
+            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/bellyxrobot?startgroup=true")
         ]
         ]
-        video = "https://te.legra.ph/file/f2433daaef29fa2de7d94.mp4"
+        video = "https://te.legra.ph/file/05916beb5a619d7be9a77.mp4"
         await message.reply_video(video, caption=f"""ʜᴇʟʟᴏ[{message.from_user.first_name}](tg://user?id={message.from_user.id}),
-ɪ ᴀᴍ ᴄʜᴀᴛʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
+mere babu ne thana thaya kya?? ...
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ᴏᴡɴᴇʀ   [ᴢᴇᴅᴅʏ](https://t.me/cryptic_audacious_prince)
-┣★ ᴜᴘᴅᴀᴛᴇs [ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ](https://t.me/OFFICIALHACKER789)
-┣★ sᴜᴘᴘᴏʀᴛ [ᴏғғɪᴄɪᴀʟ ɢʀᴏᴜᴘ](https://t.me/HEPPYLIFI)
-┣★ sᴏᴜʀᴄᴇ  [ɢᴇᴛ ʀᴇᴘᴏ ʜᴇʀᴇ](https://github.com/starrr003/CHATBOT)
+┣★ ᴏᴡɴᴇʀ   [𝗦𝗨𝗠𝗜𝗧](https://t.me/Kya_rakhu_smjh_nhi_aa_rha)
+┣★ ᴜᴘᴅᴀᴛᴇs [𝗖𝗛𝗔𝗡𝗡𝗘𝗟](https://t.me/ab_sumit)
+┣★ sᴜᴘᴘᴏʀᴛ [𝗚𝗥𝗢𝗨𝗣](https://t.me/bellysupportchat)
+┣★ sᴏᴜʀᴄᴇ  [R𝗥𝗘𝗣𝗢](https://github.com/isu-op-op/CHATBOT)
 ┗━━━━━━━━━━━━━━━━━┛
 """, reply_markup=InlineKeyboardMarkup(buttons))
 
