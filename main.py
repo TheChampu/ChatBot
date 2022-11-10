@@ -49,10 +49,10 @@ async def start(client, message):
         
     else:
         buttons = [[
-            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/champu_ka_bot?startgroup=true")
+            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/uff_meri_jaan_bot?startgroup=true")
         ]
         ]
-        video = "https://te.legra.ph/file/05916beb5a619d7be9a77.mp4"
+        video = "https://te.legra.ph/file/d2f2e7a5b90ce15221f91.mp4"
         await message.reply_video(video, caption=f"""ʜᴇʟʟᴏ[{message.from_user.first_name}](tg://user?id={message.from_user.id}),
 ɪ ᴀᴍ ᴄʜᴀᴛʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ...
 ┏━━━━━━━━━━━━━━━━━┓
