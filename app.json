@@ -1,5 +1,5 @@
 {
-    "name": "ChatBot BY SUMIT",    
+    "name": "ChatBot BY Champu",    
     "env": {
         "BOT_TOKEN": {
             "description": "telegram bot token here",
