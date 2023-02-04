@@ -49,7 +49,7 @@ async def start(client, message):
         
     else:
         buttons = [[
-            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/CruellaRobot?startgroup=true")
+            InlineKeyboardButton("❮ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❯", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"")
         ]
         ]
         video = "https://te.legra.ph/file/d2f2e7a5b90ce15221f91.mp4"
