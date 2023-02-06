@@ -7,7 +7,7 @@
 </p>
 
 ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs 
-[𝕮𝖍𝖆𝖒𝖕𝖚](https://t.me/champumusicbot)
+[𝕮𝖍𝖆𝖒𝖕𝖚](https://t.me/TheKittyXD_Bot)
 
 ## 𝐇𝐨𝐰 𝐓𝐨 𝐇𝐨𝐬𝐭 🧑‍💻
 ᴛʜᴇ ᴇᴀsɪᴇsᴛ ᴡᴀʏ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴛʜɪs ʙᴏᴛ
