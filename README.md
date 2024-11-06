@@ -96,3 +96,5 @@
   </a>
 </p>
 
+<h3 align="center"> ᴛʜᴀɴᴋs ᴛᴏ ᴍʏ ғʀɪᴇɴᴅ  <h3 align="center">
+<a href="https://github.com/THE-VIP-BOY-OP"> <img src="https://img.shields.io/badge/ᴠɪᴘ ✯ ʙᴏʏ-black?style=for-the-badge&logo=github" alt="ᴠɪᴘ ✯ ʙᴏʏ" /> </a> </h3>

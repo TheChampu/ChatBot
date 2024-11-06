@@ -1,1 +1,1 @@
-worker: python3 -m Champu
+worker: bash start
