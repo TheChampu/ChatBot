@@ -1,7 +1,7 @@
 {
-  "name": "Champu",
+  "name": "Champu Bot",
   "description": "A telegram bot",
-  "logo": "https://envs.sh/jUx.jpg",
+  "logo": "https://te.legra.ph/file/dc32c85de4f1ad9b3456b.jpg",
   "keywords": [
     "Chatbot",
     "mongodb",
@@ -11,20 +11,30 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
-  "repository": "https://github.com/TheChampu/ChatBot",
+  "repository": "https://github.com/TheChampu/Champu",
   "env": {
+    "API_ID": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org/apps.",
+      "required": true,
+      "value": ""
+    },
     "BOT_TOKEN": {
       "description": "A Bot token from @BotFather",
       "required": true,
       "value": ""
     },
-    "OWNER_ID": {
-      "description": "Fill Here Your Owner User Id",
-      "required": true,
-      "value": "6399386263"
-    },
     "MONGO_URL": {
       "description": "Get a mongodb url from https://cloud.mongodb.com.",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "User id of the user who will known as owner of the bot.",
       "required": true,
       "value": ""
     }

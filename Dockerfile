@@ -6,8 +6,7 @@ RUN pip3 install -U pip
 
 COPY . /app/
 WORKDIR /app/
-RUN pip3 install --upgrade pip
 RUN pip3 install -U -r requirements.txt
 
-CMD bash start
+CMD python3 -m Champu
 
