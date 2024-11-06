@@ -89,12 +89,12 @@
 
 [<img src="https://novatorem.visualbean.vercel.app/api/spotify" alt="𝕮𝖍𝖆𝖒𝖕𝖚 Spotify" width="75%" />](https://open.spotify.com/user/31upue756rj6rctmc2gxdwvj5vri?si=hVSKCshlR3WUDi8qXBKyXw&utm_source=copy-link)
 
+<h3 align="center"> ᴛʜᴀɴᴋs ᴛᴏ ᴍʏ ғʀɪᴇɴᴅ  <h3 align="center">
+<a href="https://github.com/THE-VIP-BOY-OP"> <img src="https://img.shields.io/badge/ᴠɪᴘ ✯ ʙᴏʏ-black?style=for-the-badge&logo=github" alt="ᴠɪᴘ ✯ ʙᴏʏ" /> </a> </h3>
+
 <h3 align="center">ᴍᴇᴇᴛ ᴏᴜʀ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs</h3>
 <p align="center" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); padding: 10px; border-radius: 8px;">
   <a href="https://github.com/TheChampu/ChatBot/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=TheChampu/ChatBot" alt="Contributors" style="border: 2px solid #000; border-radius: 10px;"/>
   </a>
 </p>
-
-<h3 align="center"> ᴛʜᴀɴᴋs ᴛᴏ ᴍʏ ғʀɪᴇɴᴅ  <h3 align="center">
-<a href="https://github.com/THE-VIP-BOY-OP"> <img src="https://img.shields.io/badge/ᴠɪᴘ ✯ ʙᴏʏ-black?style=for-the-badge&logo=github" alt="ᴠɪᴘ ✯ ʙᴏʏ" /> </a> </h3>
