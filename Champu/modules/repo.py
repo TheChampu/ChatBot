@@ -42,7 +42,7 @@ async def repo(_, m: Message):
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
-    await msg.reply_photo(
+    await m.reply_photo(
         photo=random.choice(IMG),
         caption=start_txt,
         reply_markup=reply_markup
