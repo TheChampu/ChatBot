@@ -10,6 +10,15 @@ from config import MONGO_URL
 from Champu import ChampuBot
 from Champu.modules.helpers import CHATBOT_ON, is_admins
 
+@ChampuBot.on_chat_member_updated()
+async def welcome_new_chat_member(client: Client, chat_member):
+    # Check if the bot was added to the group
+    if chat_member.new_chat_member.status == "member" and chat_member.old_chat_member.status == "left":
+        # Send a message to the group asking to make the bot an admin
+        await client.send_message(
+            chat_member.chat.id,
+            "Hello! I have just been added to this group. Please make me an admin to enable my features!"
+        )
 
 @ChampuBot.on_cmd("chatbot", group_only=True)
 @adminsOnly("can_delete_messages")
