@@ -8,7 +8,6 @@ tgcrypto==1.2.2
 asyncio
 python-dotenv
 lexica-api
-git+https://github.com/Vivekkumar-IN/TheApi@main
 deep-translator
 pycgi
 apscheduler
@@ -16,4 +15,5 @@ Flask
 uvloop
 psutil
 langdetect
-ChampuAPI
+git+https://github.com/TheChampu/ChampuAPI
+git+https://github.com/TheChampu/TheApi
