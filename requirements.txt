@@ -16,4 +16,4 @@ uvloop
 psutil
 langdetect
 git+https://github.com/TheChampu/ChampuAPI
-git+https://github.com/TheChampu/TheApi
+git+https://github.com/TheChampu/TheAPI
