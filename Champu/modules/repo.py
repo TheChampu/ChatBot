@@ -1,7 +1,7 @@
 import asyncio
 import random
 from pyrogram import filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import IMG
 from Champu import ChampuBot
@@ -21,8 +21,8 @@ start_txt = """**
 
 
 
-@ChampuBot.on_message(filters.command("repo"))
-async def start(_, msg):
+@ChampuBot.on_cmd("repo")
+async def repo(_, m: Message):
     buttons = [
         [ 
           InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{ChampuBot.username}?startgroup=true")
