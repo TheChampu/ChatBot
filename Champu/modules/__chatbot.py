@@ -1,7 +1,7 @@
 import random
 import asyncio
 import re
-from ChampuAPI import api
+from MukeshAPI import api
 from pymongo import MongoClient
 from pyrogram import Client, filters
 from pyrogram.errors import MessageEmpty
