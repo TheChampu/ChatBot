@@ -102,6 +102,8 @@ async def chatbot_response(client: Client, message: Message):
                     await message.reply_audio(reply_data["text"])
                 elif reply_data["check"] == "gif":
                     await message.reply_animation(reply_data["text"]) 
+                elif reply_data["check"] == "text":
+                    await message.reply_text(translated_text)
                 else:
                     await message.reply_text(translated_text)
             else:
@@ -207,7 +209,7 @@ async def save_reply(original_message: Message, reply_message: Message):
             is_chat = await storeai.find_one({
                 "word": original_message.text,
                 "text": translated_text,
-                "check": "none",
+                "check": "text",
             })
             if not is_chat:
                 await storeai.insert_one({
@@ -232,5 +234,4 @@ async def get_reply(word: str):
     except Exception as e:
         print(f"Error in get_reply: {e}")
         return None
-
 
