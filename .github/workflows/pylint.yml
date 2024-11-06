@@ -30,6 +30,6 @@ jobs:
           commit_message: 'Auto-ғɪx'
           commit_options: '--no-verify'
           repository: .
-          commit_user_name: Abishnoi69
+          commit_user_name: TheChampu
           commit_user_email: 1072003+yourmail69@github.com
-          commit_author: Abishnoi69 <1072003+yourmail69+@github.com>
+          commit_author: TheChampu <1072003+yourmail69+@github.com>
