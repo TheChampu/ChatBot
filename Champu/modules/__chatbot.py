@@ -16,7 +16,7 @@ from Champu.modules.helpers import chatai, storeai, languages, CHATBOT_ON
 from Champu.modules.helpers import (
     ABOUT_BTN, ABOUT_READ, ADMIN_READ, BACK, CHATBOT_BACK, CHATBOT_READ,
     DEV_OP, HELP_BTN, HELP_READ, MUSIC_BACK_BTN, SOURCE_READ, START,
-    TOOLS_DATA_READ,
+    TOOLS_DATA_READ
 )
 
 translator = GoogleTranslator()
@@ -78,7 +78,7 @@ async def chatbot_response(client: Client, message: Message):
             else:
                 return await add_served_user(message.chat.id)
         
-        if (message.reply_to_message and message.reply_to_message.from_user.id == shizuchat.id) or not message.reply_to_message:
+        if (message.reply_to_message and message.reply_to_message.from_user.id == Champu.id) or not message.reply_to_message:
             reply_data = await get_reply(message.text)
 
             if reply_data:
