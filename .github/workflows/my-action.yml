@@ -1,11 +1,10 @@
-name: Update Heroku Link on Fork
+name: Update README on Fork
 
 on:
   fork:
-    types: [created]
 
 jobs:
-  update-link:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
@@ -14,7 +13,7 @@ jobs:
 
       - name: Update README
         run: |
-          USERNAME=$(echo "${{ github.actor }}")
+          USERNAME="${{ github.actor }}"
           NEW_LINK="https://dashboard.heroku.com/new?template=https://github.com/$USERNAME/ChatBot"
           sed -i "s|https://dashboard.heroku.com/new?template=https://github.com/TheChampu/ChatBot|$NEW_LINK|g" README.md
 
